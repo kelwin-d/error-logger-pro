@@ -1,34 +1,38 @@
 # error-logger-pro
-Error Logger Pro
+Error Logger Pro - Full Stack Application
 
-Error Logger Pro is a powerful tool designed to help developers track, analyze, and resolve application errors efficiently.
+A complete **Error Logging and Reporting Dashboard** built with **FastAPI (backend)** and **React.js (frontend)**.
 
-## Features
-✅ Centralized Error Tracking  
-✅ Real-time Error Monitoring  
-✅ Detailed Insights with Custom Filters  
-✅ Alerts via Email, Slack, or Teams  
+## 🚀 Features
+✅ Role-Based Authentication (Admin & Viewer)  
+✅ Real-time Error Logging with Stack Traces  
+✅ Interactive Dashboard with Graphs & Filters  
+✅ API Pagination and Search  
+✅ Secure JWT Authentication  
+✅ Dockerized Deployment
 
 ## Setup Instructions
+## 🛠️ Installation
 
-1. Clone the repository:
+1. **Clone the Repository**:
+
 ```bash
-git clone https://github.com/your-username/error-logger-pro.git
+git clone https://github.com/kelwin-d/error-logger-pro.git
 ```
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 ```bash
 cd error-logger-pro
 ```
 
-4. Install dependencies:
+3. Run with Docker Compose:
+
 ```bash
-npm install && pip install -r requirements.txt
+docker-compose up --build
 ```
 
-4. Run the project:
-```bash
-npm start (Frontend) uvicorn app.main:app --reload (Backend)
-```
+4. Access the Application:
 
-5. Access the app at `http://localhost:3000`
+Frontend: http://localhost:3000
+
+Backend API: http://localhost:8000/docs
